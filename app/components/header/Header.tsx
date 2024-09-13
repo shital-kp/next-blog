@@ -6,7 +6,7 @@ import ThemeToggle from "../themeToggle/ThemeToggle"
 
 const Header = () => {
   return (
-    <div className="flex justify-between h-[100px] items-center">
+    <div className="flex justify-between h-[100px] items-center dark:bg-slate-600">
       <div className="flex gap-[10px] flex-1">
         <Image src="/facebook.svg" alt="facebook" width={24} height={24} />
         <Image src="/instagram.svg" alt="instagram" width={24} height={24} />
